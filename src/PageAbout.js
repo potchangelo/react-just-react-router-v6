@@ -1,4 +1,4 @@
-import { Link, Redirect, Route, Routes } from "react-router-dom";
+import { Link, Navigate, Route, Routes } from "react-router-dom";
 import LayoutPage from "./LayoutPage";
 
 function PageAbout() {
@@ -30,6 +30,7 @@ function PageAbout() {
             </>
           }
         />
+        <Route path="/" element={<Navigate to="myself" replace={true} />} />
       </Routes>
     </LayoutPage>
   );
