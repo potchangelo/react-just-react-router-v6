@@ -19,7 +19,7 @@ function PageHome() {
     return (
       <div key={post.id}>
         <h4>
-          <Link to={`/post/${post.id}`}>{post.title}</Link>
+          <Link to={`post/${post.id}`}>{post.title}</Link>
         </h4>
         <hr />
       </div>
