@@ -47,7 +47,7 @@ npm start
 
 ## Github branches
 
-1. [React Router basic routes](https://github.com/potchangelo/react-just-react-router-v6)
-2. [React Router nested routes](https://github.com/potchangelo/react-just-react-router-v6)
-3. [React Router dynamic routes](https://github.com/potchangelo/react-just-react-router-v6)
+1. [React Router basic routes](https://github.com/potchangelo/react-just-react-router-v6/tree/01-react-router)
+2. [React Router nested routes](https://github.com/potchangelo/react-just-react-router-v6/tree/02-react-router-nested)
+3. [React Router dynamic routes](https://github.com/potchangelo/react-just-react-router-v6/tree/03-react-router-dynamic)
 
