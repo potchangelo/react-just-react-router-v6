@@ -3,6 +3,7 @@ import AppHeader from './AppHeader';
 import Page404 from './Page404';
 import PageAbout from './PageAbout';
 import PageHome from './PageHome';
+import PagePost from './PagePost';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<PageHome />} />
         <Route path="about/*" element={<PageAbout />} />
+        <Route path="post/:postId" element={<PagePost />} />
         <Route path="*" element={<Page404 />} />
       </Routes>
     </div>
