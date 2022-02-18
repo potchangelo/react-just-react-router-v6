@@ -2,12 +2,16 @@
 
 อัพเดทตัวอย่างโปรเจ็คจากคลิปสอน React Ep.17-19 ของ Zinglecode จาก React Router v5 เป็น v6
 
-เนื่องจากคลิปสอนเหล่านั้นทำขึ้นในตอนต้นปี 2021 ซึ่ง React Router ตอนนั้นเป็น v5 ดังนั้นใครที่ลองทำตามในคลิปแล้วไม่สามารถใช้งานได้ ขอให้ดูตัวอย่างโค้ดของ React Router v6 ได้ที่ Repo อันนี้
+เนื่องจากคลิปสอนเหล่านั้นทำขึ้นในตอนต้นปี 2021 ซึ่ง React Router ตอนนั้นเป็น v5 ดังนั้นใครที่ลองทำตามในคลิปแล้วไม่สามารถใช้งานได้ ขอให้ดูตัวอย่างโค้ดของ React Router v6 ได้ที่ Github Repo อันนี้
 
 
 ## YouTube Videos (React Router v5)
 
-asdf
+- Basic routes -> https://www.youtube.com/watch?v=1ZrlSpnNvug
+
+- Nested routes -> https://www.youtube.com/watch?v=a_jKlluY-cc
+
+- Dynamic routes -> https://www.youtube.com/watch?v=xbdo978mpIc
 
 
 ## Install and Run project on VSCode
