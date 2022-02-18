@@ -2,12 +2,24 @@
 
 อัพเดทตัวอย่างโปรเจ็คจากคลิปสอน React Ep.17-19 ของ Zinglecode จาก React Router v5 เป็น v6
 
-เนื่องจากคลิปสอนเหล่านั้นทำขึ้นในตอนต้นปี 2021 ซึ่ง React Router ตอนนั้นเป็น v5 ดังนั้นใครที่ลองทำตามในคลิปแล้วไม่สามารถใช้งานได้ ขอให้ดูตัวอย่างโค้ดของ React Router v6 ได้ที่ Repo อันนี้
+เนื่องจากคลิปสอนเหล่านั้นทำขึ้นในตอนต้นปี 2021 ซึ่ง React Router ตอนนั้นเป็น v5 ดังนั้นใครที่ลองทำตามในคลิปแล้วไม่สามารถใช้งานได้ ขอให้ดูตัวอย่างโค้ดของ React Router v6 ได้ที่ Github Repo อันนี้
 
 
 ## YouTube Videos (React Router v5)
 
-asdf
+- Basic routes -> https://www.youtube.com/watch?v=1ZrlSpnNvug
+- Nested routes -> https://www.youtube.com/watch?v=a_jKlluY-cc
+- Dynamic routes -> https://www.youtube.com/watch?v=xbdo978mpIc
+
+
+## Changed from v5 to v6
+
+- \<Switch\> ใน v5 เปลี่ยนไปใช้เป็น \<Routes\> ใน v6
+- \<Route\> ใน v5 ที่เขียนแบบแท็กคู่เปิด/ปิด ครอบ Component ไว้ เปลี่ยนไปใช้เป็น \<Route path="..." element={\<Component /\>} /\> ใน v6
+- \<NavLink\> ไม่มี props ชื่อ activeClassName แล้วใน v6 ให้ใช้วิธีตั้งชื่อ className ด้วย Function แทน
+- \<NavLink\> props ที่ชื่อ exact ใน v5 เปลี่ยนเป็นชื่อ end ใน v6
+- \<Link\>, \<NavLink\> props ที่ชื่อ to ไม่จำเป็นต้องใส่ "/" นำหน้าลิ้งค์เสมอไป ใน v6
+- \<Redirect\> ใน v5 เปลี่ยนไปใช้เป็น \<Navigate\> ใน v6
 
 
 ## Install and Run project on VSCode
