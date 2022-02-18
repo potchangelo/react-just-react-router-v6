@@ -8,10 +8,18 @@
 ## YouTube Videos (React Router v5)
 
 - Basic routes -> https://www.youtube.com/watch?v=1ZrlSpnNvug
-
 - Nested routes -> https://www.youtube.com/watch?v=a_jKlluY-cc
-
 - Dynamic routes -> https://www.youtube.com/watch?v=xbdo978mpIc
+
+
+## Changed from v5 to v6
+
+- \<Switch\> ใน v5 เปลี่ยนไปใช้เป็น \<Routes\> ใน v6
+- \<Route\> ใน v5 ที่เขียนแบบแท็กคู่เปิด/ปิด ครอบ Component ไว้ เปลี่ยนไปใช้เป็น \<Route path="..." element={\<Component /\>} /\> ใน v6
+- \<NavLink\> ไม่มี props ชื่อ activeClassName แล้วใน v6 ให้ใช้วิธีตั้งชื่อ className ด้วย Function แทน
+- \<NavLink\> props ที่ชื่อ exact ใน v5 เปลี่ยนเป็นชื่อ end ใน v6
+- \<Link\>, \<NavLink\> props ที่ชื่อ to ไม่จำเป็นต้องใส่ "/" นำหน้าลิ้งค์เสมอไป ใน v6
+- \<Redirect\> ใน v5 เปลี่ยนไปใช้เป็น \<Navigate\> ใน v6
 
 
 ## Install and Run project on VSCode
