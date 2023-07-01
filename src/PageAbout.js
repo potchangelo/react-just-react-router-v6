@@ -1,4 +1,4 @@
-import LayoutPage from "./LayoutPage";
+import LayoutPage from './LayoutPage';
 
 function PageAbout() {
   return (
