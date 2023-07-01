@@ -10,8 +10,12 @@ function AppHeader() {
 
   return (
     <header className="app-header">
-      <NavLink className={getNavClass} to="/" end>Homepage</NavLink>
-      <NavLink className={getNavClass} to="about">About</NavLink>
+      <NavLink className={getNavClass} to="/" end>
+        Homepage
+      </NavLink>
+      <NavLink className={getNavClass} to="about">
+        About
+      </NavLink>
     </header>
   );
 }

@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
-import LayoutPage from "./LayoutPage";
+import { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
+import LayoutPage from './LayoutPage';
 
 function PagePost() {
   const [post, setPost] = useState({});
