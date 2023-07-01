@@ -1,5 +1,5 @@
-import { Link, Navigate, Route, Routes } from "react-router-dom";
-import LayoutPage from "./LayoutPage";
+import { Link, Navigate, Route, Routes } from 'react-router-dom';
+import LayoutPage from './LayoutPage';
 
 function PageAbout() {
   return (
